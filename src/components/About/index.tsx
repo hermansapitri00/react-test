@@ -4,7 +4,7 @@ import { FaJava, FaRust } from "react-icons/fa";
 export default function About() {
   return (
     <section id="about">
-      <div className="grid p-2 mx-auto gap-y-4 md:container">
+      <div className="grid p-2 mx-auto gap-y-4 md:container md:max-w-screen-md xl:max-w-screen-lg">
         <div className="place-self-center md:text-center" id="text-container">
           <h1 className="text-4xl font-extrabold tracking-tight scroll-m-20 lg:text-5xl">
             About
