@@ -12,11 +12,11 @@ export default function Hero() {
   return (
     <section id="hero">
       <div
-        className="container grid h-screen p-2 mx-auto place-items-center gap-y-2 max-h-fit"
+        className="grid h-screen p-2 mx-auto md:container place-items-center gap-y-2 max-h-fit"
         id="container"
       >
-        <div className="grid gap-4">
-          <div className="min-w-fit md:text-center" id="heading-container">
+        <div className="grid gap-4 md:text-center md:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl">
+          <div className="min-w-fit " id="heading-container">
             <div className="flex w-full md:justify-center">
               <Avatar>
                 <AvatarImage src="https://github.com/shadcn.png" />
@@ -29,7 +29,7 @@ export default function Hero() {
             <h2 className="pb-2 text-3xl font-semibold tracking-tight scroll-m-20 first:mt-0">
               Software Developer 👋
             </h2>
-            <p className="leading-7 [&:not(:first-child)]:mdj:mt-4 max-w-screen-md">
+            <p className="leading-7 [&:not(:first-child)]:mdj:mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
               autem architecto unde harum aspernatur facere temporibus ipsa
               officiis velit nostrum explicabo deleniti, veniam eligendi,
@@ -38,7 +38,7 @@ export default function Hero() {
               Distinctio obcaecati earum ipsam assumenda labore.
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center gap-2 md:flex-row">
+          <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
             <div className="flex gap-1" id="social-media-links">
               <FaGithub size={30} />
               <FaTwitter size={30} />
