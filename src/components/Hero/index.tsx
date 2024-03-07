@@ -10,12 +10,12 @@ import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
 export default function Hero() {
   return (
-    <section id="hero">
+    <section className="h-fit md:h-screen" id="hero">
       <div
-        className="grid h-screen p-2 mx-auto md:container place-items-center gap-y-2 max-h-fit"
+        className="grid px-2 mx-auto md:container place-items-center gap-y-2 max-h-fit md:h-full"
         id="container"
       >
-        <div className="grid gap-4 md:text-center md:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl">
+        <div className="grid gap-4 my-8 md:text-center md:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl">
           <div className="min-w-fit " id="heading-container">
             <div className="flex w-full md:justify-center">
               <Avatar>

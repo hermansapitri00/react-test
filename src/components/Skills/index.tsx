@@ -2,10 +2,10 @@ import SkillsCard from "./SkillsCard";
 
 export default function Skills() {
   return (
-    <section id="skills">
-      <div className="grid px-2 mx-auto md:container min-h-fit">
-        <div className="grid h-full gap-2 my-4" id="content">
-          <h1 className="text-4xl font-extrabold tracking-tight md:place-self-center scroll-m-20 lg:text-5xl">
+    <section className="grid" id="skills">
+      <div className="grid px-2 mx-auto my-8 md:container min-h-fit">
+        <div className="grid h-full gap-2" id="content">
+          <h1 className="text-4xl font-extrabold tracking-tight text-center md:place-self-center scroll-m-20 lg:text-5xl">
             Skills
           </h1>
           <div

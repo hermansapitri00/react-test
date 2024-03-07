@@ -6,13 +6,13 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="grid gap-y-6">
+    <>
       <Hero />
       <About />
       <Skills />
       <Projects />
       <Footer />
-    </div>
+    </>
   );
 }
 
