@@ -18,6 +18,10 @@ const twConfig = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      primary: ["Plus Jakarta Sans", "sans-serif"],
+      secondary: ["Inter", "sans-serif"],
+    },
     extend: {
       keyframes: {
         "accordion-down": {
